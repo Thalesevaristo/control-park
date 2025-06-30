@@ -114,7 +114,7 @@ namespace DesafioFundamentos.Models
             {
                 string listaDeVeiculos = string.Empty;
                 Console.WriteLine("Os veículos estacionados são:");
-                // Repetição, exibindo os veículos estacionados
+                // Repetição, adicionando a lista os veículos estacionados
                 foreach (string placa in veiculos)
                 {
                     listaDeVeiculos += $" - {placa}\n";

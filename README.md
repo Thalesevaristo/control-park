@@ -30,10 +30,10 @@ O projeto foi implementado seguindo o modelo proposto.
 
 ### Por último, deverá ser implementado um menu interativo com as seguintes ações:
 
-1.  Cadastrar veículo
-2.  Remover veículo
-3.  Listar veículos
-4.  Encerrar
+1. Cadastrar veículo
+2. Remover veículo
+3. Listar veículos
+4. Encerrar
 
 ---
 

@@ -81,8 +81,8 @@ O método `RemoverVeiculo` também conta com um **loop** para obter a placa a se
 1. A placa informada passa primeiro por `FormatarPlaca`, removendo símbolos desnecessários
 2. O sistema verifica se a placa consta na lista de veículos
 
-- **Se encontrado**, o usuário informa o total de horas estacionadas, e o sistema calcula o valor a ser pago
-- **Se não encontrado**, uma mensagem de erro aparece, finalizando o processo
+  - **Se encontrado**, o usuário informa o total de horas estacionadas, e o sistema calcula o valor a ser pago
+  - **Se não encontrado**, uma mensagem de erro aparece, finalizando o processo
 
 ---
 

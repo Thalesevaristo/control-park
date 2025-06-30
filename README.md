@@ -4,11 +4,11 @@
 
 ## Desafio de projeto
 
-Aplicando os conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+Aplicação dos conhecimentos adquiridos no módulo de fundamentos da trilha .NET da DIO.
 
 ## Contexto
 
-Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+Você foi contratado para construir um sistema de gerenciamento para um estacionamento. Ele será utilizado para controlar os veículos estacionados e realizar operações como adicionar, remover (exibindo o valor cobrado pelo período) e listar os veículos.
 
 ## Proposta
 
@@ -18,22 +18,22 @@ O projeto foi implementado seguindo o modelo proposto.
 
 ### A classe contém três variáveis, sendo
 
-- **precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+- **precoInicial**: Tipo decimal. É o preço cobrado para estacionar o veículo.
 - **precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
-- **veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+- **veiculos**: Uma lista de strings que representa uma coleção de veículos estacionados. Contém apenas a placa do veículo.
 
 ### A classe contém três métodos, sendo
 
-- **AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
-- **RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
-- **ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+- **AdicionarVeiculo**: Método responsável por receber a placa digitada pelo usuário e armazená-la na variável **veiculos**.
+- **RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado. Se positivo, solicitará a quantidade de horas que ele permaneceu no estacionamento. Após isso, realizará o seguinte cálculo: **precoInicial** + (**precoPorHora** \* **quantidade de horas**), exibindo o resultado para o usuário.
+- **ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibe a mensagem "Não há veículos estacionados".
 
-### Por último, deverá ser feito um menu interativo com as seguintes ações implementadas
+### Por último, deverá ser implementado um menu interativo com as seguintes ações:
 
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
+1.  Cadastrar veículo
+2.  Remover veículo
+3.  Listar veículos
+4.  Encerrar
 
 ---
 
